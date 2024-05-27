@@ -8,7 +8,7 @@ export default function Native() {
       <Text style={styles.header}>Native</Text>
       <Button
         onClick={() => {
-          console.log("Pressed!");
+          console.log("test");
           alert("Pressed!");
         }}
         text="Boop"

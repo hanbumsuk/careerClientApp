@@ -10,7 +10,7 @@ export default function Web() {
   const route = useRouter();
 
   const submitTest = async () => {
-    await route.push("exp://192.168.2.58:8081");
+    await route.push("https://career-client-web-view-career-client.vercel.app:8081");
   }
 
   return (

@@ -10,7 +10,7 @@ export default function Web() {
   const route = useRouter();
 
   const submitTest = async () => {
-    await route.push("http://localhost:19006");
+    await route.push("exp://192.168.2.58:8081");
   }
 
   return (
